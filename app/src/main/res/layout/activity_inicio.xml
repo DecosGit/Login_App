@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context=".InicioActivity">
+
+    <TextClock
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </TextClock>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/opPiloto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:onClick="opPiloto"
+            android:textSize="35dp"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:text="@string/CPiloto">
+
+        </Button>
+
+        <Button
+            android:id="@+id/opVehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CVehiculo"
+            android:onClick="Vehiculo"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_weight="50"
+            android:textSize="35dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/opCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="35dp"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:text="@string/CCliente">
+
+        </Button>
+
+        <Button
+            android:id="@+id/opEnvio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="35dp"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:text="@string/CEnvio">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/opEstadistica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="35dp"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:text="@string/CEstad">
+
+        </Button>
+
+        <Button
+            android:id="@+id/opMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="35dp"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:text="@string/CMaps">
+
+        </Button>
+
+
+    </LinearLayout>
+</LinearLayout>

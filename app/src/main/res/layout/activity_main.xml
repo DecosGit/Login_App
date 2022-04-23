@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txUser"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:inputType="textPersonName"
+            android:hint="@string/txNombre">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/txPas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:inputType="textPassword"
+            android:hint="@string/txPass">
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/btIntro"
+            android:onClick="Inicio">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnRecPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btRecPass"
+            android:gravity="center">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="clip_horizontal"
+            android:text="Version 1.0">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
