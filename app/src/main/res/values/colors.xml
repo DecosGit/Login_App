@@ -65,4 +65,13 @@
     <color name="md_theme_dark_inversePrimary">#6750A4</color>
     <color name="md_theme_dark_shadow">#000000</color>
     <color name="md_theme_dark_primaryInverse">#6750A4</color>
+
+    <color name="EditTextBG">#EFEFEF</color>
+    <color name="lblPrimary">#E09722</color>
+    <color name="IconFocused">#E09722</color>
+    <color name="IconGray">#B5B5B5</color>
+
+    <color name="bgPrimary">#E09722</color>
+
+    <color name="btnPrimary">#E09722</color>
 </resources>

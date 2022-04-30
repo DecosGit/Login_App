@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="50"
             android:onClick="opPiloto"
-            android:textSize="35dp"
+            android:textSize="35sp"
             style="@style/Widget.Material3.Button.TonalButton"
             android:text="@string/CPiloto">
 
@@ -41,7 +41,7 @@
             android:onClick="Vehiculo"
             style="@style/Widget.Material3.Button.TonalButton"
             android:layout_weight="50"
-            android:textSize="35dp"
+            android:textSize="35sp"
             />
 
 
@@ -59,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="50"
-            android:textSize="35dp"
+            android:textSize="35sp"
             style="@style/Widget.Material3.Button.TonalButton"
             android:text="@string/CCliente">
 
@@ -70,7 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="50"
-            android:textSize="35dp"
+            android:textSize="35sp"
             style="@style/Widget.Material3.Button.TonalButton"
             android:text="@string/CEnvio">
 
@@ -91,7 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="50"
-            android:textSize="35dp"
+            android:textSize="35sp"
             style="@style/Widget.Material3.Button.TonalButton"
             android:text="@string/CEstad">
 
@@ -102,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="50"
-            android:textSize="35dp"
+            android:textSize="35sp"
             style="@style/Widget.Material3.Button.TonalButton"
             android:text="@string/CMaps">
 
@@ -110,4 +110,22 @@
 
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btSal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesion"
+            style="@style/Widget.Material3.Button.TonalButton">
+
+        </Button>
+
+    </LinearLayout>
+
 </LinearLayout>
