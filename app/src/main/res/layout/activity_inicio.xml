@@ -11,7 +11,10 @@
 
     <TextClock
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:gravity="right"
+        android:layout_height="50dp"
+        android:textSize="40sp"
+        >
 
     </TextClock>
 
@@ -60,6 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="50"
             android:textSize="35sp"
+            android:onClick="Cliente"
             style="@style/Widget.Material3.Button.TonalButton"
             android:text="@string/CCliente">
 

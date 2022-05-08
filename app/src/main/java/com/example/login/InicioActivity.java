@@ -43,4 +43,10 @@ public class InicioActivity extends AppCompatActivity {
         startActivity(inicio);
 
     }
+
+    public void Cliente(View view) {
+        Intent inicio = new Intent(this, Clientes_Activity.class);
+        startActivity(inicio);
+
+    }
 }

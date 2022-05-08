@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Empleados">
+    tools:context=".Clientes_Activity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="20dp"
-        android:text="EMPLEADOS"
+        android:text="CLIENTES"
         android:textSize="30sp">
 
     </TextView>
@@ -31,17 +31,18 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="20dp">
+
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Nuevo"
-                    android:id="@+id/btnNuevoEmp"
-                    android:onClick="NuevoEmpleado">
+                    android:id="@+id/btnNuevoCliente"
+                    android:onClick="NuevoCliente">
 
                 </Button>
 
                 <Button
-                    android:id="@+id/btnModificarEmp"
+                    android:id="@+id/btnModificarCliente"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Modificar"
@@ -50,7 +51,7 @@
                 </Button>
 
                 <Button
-                    android:id="@+id/btnEliminarEmp"
+                    android:id="@+id/btnEliminarCliente"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Eliminar"
@@ -63,7 +64,7 @@
             <androidx.fragment.app.FragmentContainerView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/fragmentEmpleados"
+                android:id="@+id/fragmentClientes"
                 android:padding="20dp">
 
             </androidx.fragment.app.FragmentContainerView>

@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
         <activity
+            android:name=".NewCliente_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Clientes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NewAuto"
+            android:exported="false" />
+        <activity
+            android:name=".NewEmp_Activity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity

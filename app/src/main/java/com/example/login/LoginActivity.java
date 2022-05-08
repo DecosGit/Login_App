@@ -1,5 +1,7 @@
 package com.example.login;
 
+import static com.example.login.R.layout.activity_login;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -33,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(activity_login);
 
         TextInputLayout4 = (TextInputLayout)findViewById(R.id.TextInputLayout4);
 

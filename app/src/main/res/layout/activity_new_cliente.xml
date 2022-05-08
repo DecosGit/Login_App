@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewCliente_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/nuevo_cliente"
+        android:textSize="35sp">
+
+    </TextView>
+
+
+
+    <EditText
+        android:id="@+id/edtNombreCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_completo"
+        android:inputType="textPersonName"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtTelefonoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono"
+        android:inputType="number"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/direccion"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtHorario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/horario"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGuardarCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/guardar">
+
+    </Button>
+
+</LinearLayout>

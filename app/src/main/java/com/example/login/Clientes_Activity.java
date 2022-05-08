@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Automoviles_Activity extends AppCompatActivity {
+public class Clientes_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_automoviles);
+        setContentView(R.layout.activity_clientes);
     }
 
-    public void NuevoAuto(View view) {
-        Intent intent = new Intent(this, NewEmp_Activity.class);
+    public void NuevoCliente(View view) {
+        Intent intent = new Intent(this, NewCliente_Activity.class);
         startActivity(intent);
     }
 }

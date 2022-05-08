@@ -19,4 +19,17 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="nuevo_empleado">Nuevo Empleado</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="nuevo_auto">Nuevo Auto</string>
+    <string name="placa">Placa</string>
+    <string name="marca">Marca</string>
+    <string name="color">Color</string>
+    <string name="nuevo_cliente">Nuevo Cliente</string>
+    <string name="direccion">Direccion</string>
+    <string name="horario">Horario</string>
 </resources>

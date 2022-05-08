@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewAuto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/nuevo_auto"
+        android:textSize="35sp">
+
+    </TextView>
+
+
+
+    <EditText
+        android:id="@+id/edtplaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/placa"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/marca"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/color"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtCombustible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Combustible"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGuardarAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/guardar">
+
+    </Button>
+
+</LinearLayout>

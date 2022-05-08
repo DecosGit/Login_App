@@ -15,11 +15,16 @@
         <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/drawable-v24/ic_phone.xml" value="0.14322916666666666" />
         <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/drawable-v24/ic_undraw_pet_adoption_2qkw_1.xml" value="0.14322916666666666" />
         <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_automoviles.xml" value="0.23822463768115942" />
+        <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_clientes.xml" value="0.25" />
         <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_empleados.xml" value="0.2359375" />
-        <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_inicio.xml" value="0.2" />
+        <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_inicio.xml" value="0.264" />
         <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_main.xml" value="0.161231884057971" />
-        <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_register.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_new_auto.xml" value="0.25" />
+        <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_new_cliente.xml" value="0.25" />
+        <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_new_emp.xml" value="0.25" />
+        <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_nuevo_empleado.xml" value="0.1" />
+        <entry key="..\:/Users/DCorn/AndroidStudioProjects/Login/app/src/main/res/layout/activity_register.xml" value="0.264" />
       </map>
     </option>
   </component>

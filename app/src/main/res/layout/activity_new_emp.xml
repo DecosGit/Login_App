@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewEmp_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/nuevo_empleado"
+        android:textSize="35sp">
+
+    </TextView>
+
+
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_completo"
+        android:inputType="textPersonName"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono"
+        android:inputType="number"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo_electronico"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txPass"
+        android:inputType="textPassword"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGuardarEmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/guardar">
+
+    </Button>
+
+</LinearLayout>
