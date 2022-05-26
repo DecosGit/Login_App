@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp"
+    >
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/optionClient"
+        android:text="&#8941;"
+        android:textSize="20sp"
+        android:layout_gravity="end"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="hola"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="hola"
+        android:layout_marginLeft="30dp">
+
+    </TextView>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adress"
+        android:textSize="15sp"
+        android:text="prueba"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ultimoCampo"
+        android:textSize="15sp"
+        android:text="probado"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp">
+
+    </TextView>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

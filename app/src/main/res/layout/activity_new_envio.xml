@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:accessibilityPaneTitle="ENVIO NUEVO"
+    tools:context=".NewAuto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/nueva_entrega"
+        android:layout_marginBottom="40dp"
+        android:textSize="35sp">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:backgroundTint="@color/browser_actions_bg_grey">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Cliente"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:layout_margin="20dp"
+            android:id="@+id/boxCliente"
+            android:ems="18">
+
+        </Spinner>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:id="@+id/cardVehiculo"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:backgroundTint="@color/browser_actions_bg_grey">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vehiculo Seleccionado"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:layout_margin="20dp"
+            android:id="@+id/boxVehiculo"
+            android:ems="18">
+
+        </Spinner>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardEmpleado"
+        android:layout_margin="15dp"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:backgroundTint="@color/browser_actions_bg_grey">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empleado"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:layout_margin="20dp"
+            android:id="@+id/boxEmpleado"
+            android:ems="18">
+
+        </Spinner>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardEstado"
+        android:layout_margin="15dp"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:backgroundTint="@color/browser_actions_bg_grey">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado de la entrega"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:layout_margin="20dp"
+            android:id="@+id/boxEntregado"
+            android:ems="18">
+
+        </Spinner>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"
+        android:layout_gravity="center"
+        android:onClick="Nuevo"
+        android:textSize="25sp"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:id="@+id/GuardarEnvio">
+
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>

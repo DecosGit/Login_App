@@ -26,12 +26,8 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp">
                 <Button
+                    android:layout_marginTop="35dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Nuevo"
@@ -40,33 +36,21 @@
 
                 </Button>
 
-                <Button
-                    android:id="@+id/btnModificarEmp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Modificar"
-                    android:layout_marginLeft="25dp">
-
-                </Button>
-
-                <Button
-                    android:id="@+id/btnEliminarEmp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Eliminar"
-                    android:layout_marginLeft="25dp">
-
-                </Button>
-
-            </LinearLayout>
-
-            <androidx.fragment.app.FragmentContainerView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/fragmentEmpleados"
-                android:padding="20dp">
+                android:text="@string/lista_de_empleados"
+                android:textSize="35sp"
+                android:gravity="center">
 
-            </androidx.fragment.app.FragmentContainerView>
+            </TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ListaEmpleados">
+
+            </androidx.recyclerview.widget.RecyclerView>
 
         </LinearLayout>
 

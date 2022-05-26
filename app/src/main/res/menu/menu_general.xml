@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/addIcon"
+        android:icon="@drawable/ic_nuevo"
+        android:title="Edit_Done"
+        app:showAsAction="always">
+
+    </item>
+
+    <item android:id="@+id/ModificarIcon"
+        android:icon="@drawable/ic_modificar"
+        android:title="Modify_Done"
+        app:showAsAction="always">
+
+    </item>
+
+    <item android:id="@+id/DeleteIcon"
+        android:icon="@drawable/ic_eliminar"
+        android:title="Dele_Done"
+        app:showAsAction="always">
+
+    </item>
+
+</menu>

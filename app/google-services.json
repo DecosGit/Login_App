@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "753678114937",
+    "firebase_url": "https://login-app-bc88f-default-rtdb.firebaseio.com",
     "project_id": "login-app-bc88f",
     "storage_bucket": "login-app-bc88f.appspot.com"
   },

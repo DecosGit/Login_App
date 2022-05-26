@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
         android:gravity="center"
         android:text="@string/nuevo_empleado"
         android:textSize="35sp">
@@ -18,58 +19,93 @@
     </TextView>
 
 
-
-    <EditText
-        android:id="@+id/edtNombre"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/nombre_completo"
-        android:inputType="textPersonName"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layNombre"
+        android:hint="@string/nombre_completo">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNombreEmpleado"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <EditText
-        android:id="@+id/edtTelefono"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/telefono"
-        android:inputType="number"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layTelefono"
+        android:hint="@string/telefono">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNumTel"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <EditText
-        android:id="@+id/edtCorreo"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/correo_electronico"
-        android:inputType="textEmailAddress"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layCorreo"
+        android:hint="@string/correo_electronico">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtCorreo"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <EditText
-        android:id="@+id/edtPass"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/txPass"
-        android:inputType="textPassword"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layContraseña"
+        android:hint="@string/contrase_a">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPass"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <Button
-        android:id="@+id/btnGuardarEmp"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/guardar"
         android:layout_gravity="center"
-        android:text="@string/guardar">
+        android:onClick="SaveAuto"
+        android:textSize="25sp"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:id="@+id/GuardarEmpleado">
 
-    </Button>
+    </com.google.android.material.button.MaterialButton>
 
 </LinearLayout>

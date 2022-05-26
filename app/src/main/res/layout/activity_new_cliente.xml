@@ -11,65 +11,100 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
         android:gravity="center"
         android:text="@string/nuevo_cliente"
         android:textSize="35sp">
 
     </TextView>
 
-
-
-    <EditText
-        android:id="@+id/edtNombreCliente"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/nombre_completo"
-        android:inputType="textPersonName"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layNombre"
+        android:hint="@string/nombre_completo">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNombreClient"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <EditText
-        android:id="@+id/edtTelefonoCliente"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/telefono"
-        android:inputType="number"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layTelefono"
+        android:hint="@string/telefono">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNumTelClien"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <EditText
-        android:id="@+id/edtDireccion"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/direccion"
-        android:inputType="text"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layDireccion"
+        android:hint="@string/direccion">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtDireccion"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <EditText
-        android:id="@+id/edtHorario"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/horario"
-        android:inputType="text"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layHorario"
+        android:hint="@string/horario">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_horario"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <Button
-        android:id="@+id/btnGuardarCliente"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/guardar"
+        android:layout_marginTop="40dp"
         android:layout_gravity="center"
-        android:text="@string/guardar">
+        android:onClick="SaveAuto"
+        android:textSize="25sp"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:id="@+id/GuardarCliente">
 
-    </Button>
+    </com.google.android.material.button.MaterialButton>
 
 </LinearLayout>

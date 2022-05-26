@@ -13,63 +13,117 @@
         android:layout_marginTop="40dp"
         android:gravity="center"
         android:text="@string/nuevo_auto"
+        android:layout_marginBottom="40dp"
         android:textSize="35sp">
 
     </TextView>
 
-
-
-    <EditText
-        android:id="@+id/edtplaca"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layPlaca1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/placa"
-        android:inputType="text"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:hint="Placas">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPlaca"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <EditText
-        android:id="@+id/edtMarca"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/marca"
-        android:inputType="text"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layMarca1"
+        android:hint="MARCA">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_marca"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <EditText
-        android:id="@+id/edtColor"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/color"
-        android:inputType="text"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layColor1"
+        android:hint="COLOR">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtcolor"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <EditText
-        android:id="@+id/edtCombustible"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Combustible"
-        android:inputType="text"
-        android:layout_marginTop="25dp"
-        android:textSize="25sp">
+        android:id="@+id/layCombustible1"
+        android:hint="COMBUSTIBLE">
 
-    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtCombustible_"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:paddingTop="15dp">
 
-    <Button
-        android:id="@+id/btnGuardarAuto"
-        android:layout_width="wrap_content"
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/guardar">
+        android:orientation="horizontal">
 
-    </Button>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar"
+            android:layout_gravity="center"
+            android:onClick="Nuevo"
+            android:textSize="25sp"
+            android:layout_marginLeft="15dp"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:id="@+id/MatbtnGuardarAuto">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modificar"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:layout_marginLeft="40dp"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:id="@+id/btnCarModificar">
+
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
 
 </LinearLayout>

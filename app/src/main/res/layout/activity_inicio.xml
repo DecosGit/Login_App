@@ -75,6 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="50"
             android:textSize="35sp"
+            android:onClick="Envios"
             style="@style/Widget.Material3.Button.TonalButton"
             android:text="@string/CEnvio">
 
